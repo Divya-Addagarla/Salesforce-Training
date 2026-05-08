@@ -1,4 +1,25 @@
 
+
+# Task 1 : Understand Business Flow
+
+Lead → Contact → Opportunity → Customer
+
+- Lead: Person or organisation showing interest in product or service
+- Contact: Qualified person with saved details
+- Opportunity: Potential deal or process
+- Customer: person becomes customer after deal is successfully completed
+
+#  Task 2 : Real-Life Mapping (College Admission)
+
+- College = Account
+- Student = Contact
+- Admission application = Opportunity
+- Student interested in admission  = lead
+
+
+
+
+
 # What is CRM ? 
 
 - CRM stands for Customer Relationship Management.
@@ -24,13 +45,11 @@ Represents a company or organization.
 ## What is Opportunity
  It Represents a potential sales deal.
 
-# Your real-world mapping
+# Your real-world mapping (College Admission)
 
-Example:
-- Amazon = Account
-- Divya = Contact
-- Selling 30 Laptops which is a Purchase Deal = Opportunity
+- College = Account
+- Student = Contact
+- Admission application = Opportunity
+- Student interested in admission  = lead
 
-# Screenshots from Trailhead
 
-(Add your screenshots here)
