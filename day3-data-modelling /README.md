@@ -1,12 +1,12 @@
 ## 1. Difference Between: 
  App , Object  , Record  ,Field 
-      = App	is a collection of related tabs, objects, and tools used for a business purpose.
+       1. App	is a collection of related tabs, objects, and tools used for a business purpose.
             Ex  :  School Management System
-      - Object is a database table that stores a type of information.
+       2. Object is a database table that stores a type of information.
             Ex  :  Student Table
-      - Record is a single row/data entry inside an object.
+      3. Record is a single row/data entry inside an object.
             Ex   :  One Student
-      - Field	is a column/attribute that stores specific information in a record.
+      4. Field	is a column/attribute that stores specific information in a record.
             Ex  :  Student Name, Roll No, Grade
 
 ## 2. Standard vs Custom Objects 
