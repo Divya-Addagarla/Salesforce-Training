@@ -1,5 +1,5 @@
 ## 1. Difference Between: 
- App , Object  , Record  ,Field 
+ App , Object  , Record  ,Field <br>
        1. App	is a collection of related tabs, objects, and tools used for a business purpose.<br>
             Ex  :  School Management System <br>
        2. Object is a database table that stores a type of information.<br>
@@ -27,14 +27,14 @@
  A Professor teaches many Courses
  A Student can enroll in many Courses
 ##### Diagram
- Department
-   │
-   ├──< Student >──┐
-   │               │
-   │               v
-   ├──< Professor   Enrollment   >── Course
-   │
-   v
+ Department<br>
+   │<br>
+   ├──< Student >──┐<br>
+   │               │<br>
+   │               v<br>
+   ├──< Professor   Enrollment   >── Course<br>
+   │<br>
+   v<br>
  Fees
 ## 4. Formula Fields 
 (Your examples + explanation)
@@ -58,23 +58,23 @@ Shows related Account name:
 (Your examples + explanation) 
    A Validation Rule is like a “data check” that prevents wrong or incomplete information from being saved.
 Examples
-  1. Contact must have Email
-    ISBLANK(Email)
+  1. Contact must have Email<br>
+    ISBLANK(Email)<br>
     Error: Email is required before saving the contact.
   
-  2. Age must be 18 or above
-   Age__c < 18
+  2. Age must be 18 or above<br>
+   Age__c < 18<br>
    Error: User cannot enter age less than 18.
   
-  3. Phone number must be 10 digits
-    LEN(Phone) <> 10
+  3. Phone number must be 10 digits<br>
+    LEN(Phone) <> 10<br>
      Error: Phone number must be exactly 10 digits.
   
-  4. Contact must match Account ZIP Code
+  4. Contact must match Account ZIP Code<br>
     AND(
     NOT(ISBLANK(AccountId)),
     MailingPostalCode <> Account.ShippingPostalCode
-    )
+    )<br>
     Error: Contact ZIP must match Account ZIP.
 
 ## 6. Reflection , Why structured enterprise data matters
