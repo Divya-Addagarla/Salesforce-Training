@@ -1,5 +1,5 @@
-##1. Difference Between: 
-     #### App , Object  , Record  ,Field 
+## 1. Difference Between: 
+ App , Object  , Record  ,Field 
       = App	is a collection of related tabs, objects, and tools used for a business purpose.
             Ex  :  School Management System
       - Object is a database table that stores a type of information.
@@ -9,24 +9,24 @@
       - Field	is a column/attribute that stores specific information in a record.
             Ex  :  Student Name, Roll No, Grade
 
-##2. Standard vs Custom Objects 
+## 2. Standard vs Custom Objects 
    Standard Objects are already built in by Salesforce, like Account, Contact, and Lead, and are used for common business needs. Custom Objects are created by users when they want to store special or extra information that standard objects don’t cover, like Student or Project
 
-##3. Your College Data Model 
+## 3. Your College Data Model 
   Include: 
         Objects 
         Relationships 
         Diagram/image
->> Objects
+#### Objects
   we use the following objects:
       Student,Course,Enrollment,Professor,Department,Fees
->> Relationships
+#### Relationships
  A Student belongs to one Department
  A Department has many Students
  A Department has many Professors
  A Professor teaches many Courses
  A Student can enroll in many Courses
->> Diagram
+##### Diagram
  Department
    │
    ├──< Student >──┐
@@ -36,7 +36,7 @@
    │
    v
  Fees
-##4. Formula Fields 
+## 4. Formula Fields 
 (Your examples + explanation)
    A formula field automatically calculates values using other fields. It updates itself whenever data changes.
 
@@ -54,7 +54,7 @@ Shows related Account name:
    Shows Active or Inactive:
    IF(IsActive = TRUE, "Active", "Inactive")
 
-##5. Validation Rules 
+## 5. Validation Rules 
 (Your examples + explanation) 
    A Validation Rule is like a “data check” that prevents wrong or incomplete information from being saved.
 Examples
@@ -77,7 +77,7 @@ Examples
     )
     Error: Contact ZIP must match Account ZIP.
 
-##6. Reflection , Why structured enterprise data matters
+## 6. Reflection , Why structured enterprise data matters
   structured data is important because it keeps information clean, organized, and easy to use. It helps users avoid mistakes, reduces duplicate data, and makes it easier to find and understand information. With structured data, businesses can work faster and make better decisions.
   
 
