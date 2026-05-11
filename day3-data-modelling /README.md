@@ -1,22 +1,22 @@
 ## 1. Difference Between: 
  App , Object  , Record  ,Field 
-       1. App	is a collection of related tabs, objects, and tools used for a business purpose.
-            Ex  :  School Management System
-       2. Object is a database table that stores a type of information.
-            Ex  :  Student Table
-      3. Record is a single row/data entry inside an object.
-            Ex   :  One Student
-      4. Field	is a column/attribute that stores specific information in a record.
-            Ex  :  Student Name, Roll No, Grade
+       1. App	is a collection of related tabs, objects, and tools used for a business purpose.<br>
+            Ex  :  School Management System <br>
+       2. Object is a database table that stores a type of information.<br>
+            Ex  :  Student Table<br>
+      3. Record is a single row/data entry inside an object.<br>
+            Ex   :  One Student<br>
+      4. Field	is a column/attribute that stores specific information in a record.<br>
+            Ex  :  Student Name, Roll No, Grade<br>
 
 ## 2. Standard vs Custom Objects 
    Standard Objects are already built in by Salesforce, like Account, Contact, and Lead, and are used for common business needs. Custom Objects are created by users when they want to store special or extra information that standard objects don’t cover, like Student or Project
 
 ## 3. Your College Data Model 
   Include: 
-        Objects 
-        Relationships 
-        Diagram/image
+       >> Objects 
+       >> Relationships 
+       >> Diagram/image
 #### Objects
   we use the following objects:
       Student,Course,Enrollment,Professor,Department,Fees
@@ -41,16 +41,16 @@
    A formula field automatically calculates values using other fields. It updates itself whenever data changes.
 
 Examples:
-1. Full Name (Contact)
+1. Full Name (Contact)<br>
 Combines first and last name:
      FirstName & " " & LastName
-2. Age (from Birthdate)
+2. Age (from Birthdate)<br>
 Calculates age: 
      YEAR(TODAY()) - YEAR(Birthdate)
-3. Account Name Display (Contact)
+3. Account Name Display (Contact)<br>
 Shows related Account name:
    Account.Name
-4. Status Message
+4. Status Message<br>
    Shows Active or Inactive:
    IF(IsActive = TRUE, "Active", "Inactive")
 
