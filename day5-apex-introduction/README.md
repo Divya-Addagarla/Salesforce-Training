@@ -57,7 +57,7 @@
   When a student enrolls, automatically create enrollment record.
   Send email confirmation after admission.
   Auto-update fee status when payment is done.
-  - 6. Apex
+  -  Apex
   Apex is used for complex logic:
   Calculate final grade based on multiple exams.
   Assign students to courses based on eligibility.
@@ -65,16 +65,16 @@
 
 ## 5. Pseudocode Examples 
      (Add your logic examples) 
-  - 1. Auto Create Enrollment Record
+  - 1. Auto Create Enrollment Record<br>
       ''' WHEN a new Student is created
       THEN create an Enrollment record
       SET Student = current student
       SET Status = "Active" '''
-  - 2. Fee Validation Rule
+  - 2. Fee Validation Rule<br>
      ''' IF Fee Amount < 0
       THEN show error "Fee cannot be negative"
       STOP record save'''
-  - 3. Attendance Check
+  - 3. Attendance Check<br>
     '''  FOR each Student
       IF Attendance < 75%
       THEN mark as "Low Attendance"
